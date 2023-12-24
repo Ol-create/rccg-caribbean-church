@@ -18,6 +18,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/image/rccg_logo.svg" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
