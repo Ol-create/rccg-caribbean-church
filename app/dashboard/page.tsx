@@ -20,22 +20,92 @@ export default function page() {
           />
         </div>
       </div>
-      <div className="flex justify-center w-64 h-full fixed bg-blue-600">
+      <div
+        className="flex justify-center w-64 h-full fixed bg-[#291770]  pr-3"
+      >
         <ul className="mt-8 flex-col space-y-4 text-sm text-white">
-          <li>@00000000000</li>
-          <li className="bg-yellow-700 flex items-center">
+          <li className="flex">@00000000000</li>
+          <li className="flex">
             Main Menu{" "}
-            <i className="material-icons text-2xl bg-red-700">change_history</i>
+            {/* <i className="material-icons text-2xl bg-red-700">change_history</i> */}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
           </li>
-          <li>Remittance</li>
-          <li>Directory</li>
-          <li>Bank Account Manager</li>
-          <li>Birthdays And Events</li>
-          <li>Church And Pastor Manager</li>
-          <li>Payment Manager</li>
-          <li>Reports</li>
-          <li>Search And Excel</li>
-          <li>Login</li>
+          <li className="flex">
+            Remittance{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Directory{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Bank Account Manager{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Birthdays And Events{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Church And Pastor Manager{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Payment Manager{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Reports{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Search And Excel
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
+          <li className="flex">
+            Login{" "}
+            <img
+              className="absolute right-2"
+              src="./image/Vector.svg"
+              alt="collapse"
+            />
+          </li>
         </ul>
       </div>
       <div className="relative flex items-center ml-80 mr-16 mt-6 bg-[#A5A5A5] h-[51px] border rounded-lg shadow-lg">
@@ -69,21 +139,49 @@ export default function page() {
             alt="Horizontal Bar"
           />
         </div>
-        <div className="grid grid-cols-3 absolute -bottom-2">
+        <div className="grid grid-cols-7 absolute -bottom-2">
           {/* 1st column */}
           <div>
             <div className="ml-[410px] w-6 h-6 border-4 border-[#427142] rounded-full flex-col justify-center items-center bg-white">
               <p className="text-center">1</p>
               <img
-                className='text-3xl'
-                src="./image/pointer.svg" alt="Pointer Triangle" />
-              <p className="bg-[#427142] rounded-lg text-white inline-block p-2 -ml-8 mt-3">Personal</p>
+                className="text-3xl"
+                src="./image/pointer.svg"
+                alt="Pointer Triangle"
+              />
+              <p className="bg-[#427142] rounded-lg text-white inline-block p-2 -ml-8 mt-3">
+                Personal
+              </p>
             </div>
           </div>
           {/* 2nd column */}
-          <div></div>
+          <div>
+            <div className="ml-[410px] w-6 h-6 border-4 border-[#427142] rounded-full flex-col justify-center items-center bg-white">
+              <p className="text-center">1</p>
+              <img
+                className="text-3xl"
+                src="./image/pointer.svg"
+                alt="Pointer Triangle"
+              />
+              <p className="bg-[#427142] rounded-lg text-white inline-block p-2 -ml-8 mt-3">
+                Personal
+              </p>
+            </div>
+          </div>
           {/* 3rd column */}
-          <div></div>
+          <div>
+            <div className="ml-[410px] w-6 h-6 border-4 border-[#427142] rounded-full flex-col justify-center items-center bg-white">
+              <p className="text-center">1</p>
+              <img
+                className="text-3xl"
+                src="./image/pointer.svg"
+                alt="Pointer Triangle"
+              />
+              <p className="bg-[#427142] rounded-lg text-white inline-block p-2 -ml-8 mt-3">
+                Personal
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
