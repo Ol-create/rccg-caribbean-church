@@ -5,7 +5,7 @@ export default function Login() {
     <>
       <div className="flex bg-[#291770] h-[59px] text-center items-center justify-center">
         <h2 className="text-white sm:text-[21px] font-bold text-md">
-          THE REDEEMED CHRISTIAN CHURCH OF GOD CARRIBEAN PORTAL
+          THE REDEEMED CHRISTIAN CHURCH OF GOD CARIBBEAN PORTAL
         </h2>
       </div>
       {/* Image Section */}

@@ -20,9 +20,7 @@ export default function page() {
           />
         </div>
       </div>
-      <div
-        className="flex justify-center w-64 h-full fixed bg-[#291770]  pr-3"
-      >
+      <div className="flex justify-center w-64 h-full fixed bg-[#291770]  pr-3">
         <ul className="mt-8 flex-col space-y-4 text-sm text-white">
           <li className="flex">@00000000000</li>
           <li className="flex">
@@ -99,7 +97,7 @@ export default function page() {
             />
           </li>
           <li className="flex">
-            Login{" "}
+            <a href="/login">Login</a>
             <img
               className="absolute right-2"
               src="./image/Vector.svg"
@@ -157,7 +155,7 @@ export default function page() {
           {/* 2nd column */}
           <div>
             <div className="ml-[410px] w-6 h-6 border-4 border-[#427142] rounded-full flex-col justify-center items-center bg-white">
-              <p className="text-center">1</p>
+              <p className="text-center">2</p>
               <img
                 className="text-3xl"
                 src="./image/pointer.svg"
@@ -171,7 +169,7 @@ export default function page() {
           {/* 3rd column */}
           <div>
             <div className="ml-[410px] w-6 h-6 border-4 border-[#427142] rounded-full flex-col justify-center items-center bg-white">
-              <p className="text-center">1</p>
+              <p className="text-center">3</p>
               <img
                 className="text-3xl"
                 src="./image/pointer.svg"
