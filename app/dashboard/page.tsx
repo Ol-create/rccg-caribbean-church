@@ -23,7 +23,7 @@ export default function page() {
       <div className="flex justify-center w-64 h-full fixed bg-blue-600">
         <ul className="mt-8 flex-col space-y-4 text-sm text-white">
           <li>@00000000000</li>
-          <li className='bg-yellow-700 flex items-center'>
+          <li className="bg-yellow-700 flex items-center">
             Main Menu{" "}
             <i className="material-icons text-2xl bg-red-700">change_history</i>
           </li>
@@ -38,6 +38,27 @@ export default function page() {
           <li>Login</li>
         </ul>
       </div>
+      <div className="relative flex items-center ml-80 mr-16 mt-6 bg-[#A5A5A5] h-[51px] border rounded-lg shadow-lg">
+        <div className="flex border-0 rounded-lg bg-[#291770] text-white px-3 py-1 ml-[10px]">
+          <i className="material-icons">menu </i>
+          <p>Toggle Menu</p>
+        </div>
+        <div className=" absolute right-9 flex space-x-2 text-[#291770]">
+          <p>Back</p>
+          <p>Change Phone Number</p>
+          <p className="text-[#3E3E3E]">Skip update for now</p>
+        </div>
+      </div>
+      <p className="ml-80 mt-7 text-xl text-[#3E3E3E] font-bold">
+        A/P OLUWAFEMI GIDEON TAIWO PROFILE (23456789311)
+      </p>
+      <p className="ml-80 mt-2 text-sm text-[#3E3E3E]">Skip update for now</p>
+      <div
+        className="ml-80 mt-7 font-medium bg-[#FF0000] rounded-lg w-[570px] h-12 flex items-center"
+      >
+        <p className='text-white pl-3'>IMPORTANT: Your Profile is not updated. Kindly update</p>
+      </div>
+      
     </div>
   );
 }
