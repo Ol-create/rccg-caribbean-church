@@ -53,12 +53,39 @@ export default function page() {
         A/P OLUWAFEMI GIDEON TAIWO PROFILE (23456789311)
       </p>
       <p className="ml-80 mt-2 text-sm text-[#3E3E3E]">Skip update for now</p>
-      <div
-        className="ml-80 mt-7 font-medium bg-[#FF0000] rounded-lg w-[570px] h-12 flex items-center"
-      >
-        <p className='text-white pl-3'>IMPORTANT: Your Profile is not updated. Kindly update</p>
+      <div className="ml-80 mt-7 font-medium bg-[#FF0000] rounded-lg w-[570px] h-12 flex items-center">
+        <p className="text-white pl-3">
+          IMPORTANT: Your Profile is not updated. Kindly update
+        </p>
       </div>
-      
+
+      {/* Container for showing work progress */}
+      <div className="relative">
+        {/* Horizontal ruler/ bar line */}
+        <div>
+          <img
+            className=" ml-[410px] mt-6 z-10"
+            src="./image/ruler.svg"
+            alt="Horizontal Bar"
+          />
+        </div>
+        <div className="grid grid-cols-3 absolute -bottom-2">
+          {/* 1st column */}
+          <div>
+            <div className="ml-[410px] w-6 h-6 border-4 border-[#427142] rounded-full flex-col justify-center items-center bg-white">
+              <p className="text-center">1</p>
+              <img
+                className='text-3xl'
+                src="./image/pointer.svg" alt="Pointer Triangle" />
+              <p className="bg-[#427142] rounded-lg text-white inline-block p-2 -ml-8 mt-3">Personal</p>
+            </div>
+          </div>
+          {/* 2nd column */}
+          <div></div>
+          {/* 3rd column */}
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 }
